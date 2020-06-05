@@ -8,3 +8,9 @@
 ./dev/asdf.sh
 ./dev/asdf-erlang.sh
 ./dev/asdf-elixir.sh
+./dev/asdf-nodejs.sh
+
+mix local.hex --force
+mix local.rebar --force
+
+mix archive.install hex phx_new 1.5.3
