@@ -1,5 +1,5 @@
 # Install packages and build tools
-sudo eopkg install $(cat ../package-list) -y
+sudo eopkg install $(cat package-list) -y
 sudo eopkg it -c system.devel -y
 
 # Add Java binaries to PATH
